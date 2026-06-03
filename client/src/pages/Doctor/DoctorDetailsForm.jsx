@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { motion } from 'framer-motion';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docify-telemedical-web-1.onrender.com';
 
 export default function DoctorDetailsForm() {
     const navigate = useNavigate();

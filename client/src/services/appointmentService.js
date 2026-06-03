@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/appointments';
+const API_URL = 'https://docify-telemedical-web-1.onrender.com/api/appointments';
 
 export const getAppointmentsByDoctorId = async (doctorId, token) => {
   return await axios.get(`${API_URL}/doctor/${doctorId}`, {

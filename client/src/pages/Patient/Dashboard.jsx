@@ -8,7 +8,7 @@ import {
     FiFileText, FiStar, FiArrowRight, FiVideo, FiClock, FiPlus, FiSun, FiMoon, FiSunset
 } from 'react-icons/fi';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docify-telemedical-web-1.onrender.com';
 
 // A reusable, glassmorphism-style card for dashboard navigation
 function DashboardCard({ icon, title, description, to }) {

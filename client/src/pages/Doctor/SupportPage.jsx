@@ -14,7 +14,7 @@ export default function SupportPage() {
 
   const fetchTickets = async () => {
     const token = localStorage.getItem("token");
-    const { data } = await axios.get("http://localhost:5000/api/support/my-tickets", {
+    const { data } = await axios.get("https://docify-telemedical-web-1.onrender.com/api/support/my-tickets", {
       headers: { Authorization: `Bearer ${token}` },
     });
     setTickets(data);
@@ -23,7 +23,7 @@ export default function SupportPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const token = localStorage.getItem("token");
-    await axios.post("http://localhost:5000/api/support", { subject, description, priority }, {
+    await axios.post("https://docify-telemedical-web-1.onrender.com/api/support", { subject, description, priority }, {
       headers: { Authorization: `Bearer ${token}` },
     });
     setSubject("");

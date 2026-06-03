@@ -9,7 +9,7 @@ import {
     FiHome, FiCalendar, FiUserCheck, FiUpload, FiStar, FiLogOut, FiSettings, FiUsers
 } from 'react-icons/fi';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docify-telemedical-web-1.onrender.com';
 
 export default function UploadReport() {
     const { user, logout } = useAuth();

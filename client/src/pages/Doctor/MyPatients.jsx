@@ -5,7 +5,7 @@ import { useAuth } from '../../context/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiUser, FiArrowRight, FiSearch, FiUsers, FiCalendar, FiSettings, FiFileText, FiLogOut } from 'react-icons/fi';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docify-telemedical-web-1.onrender.com';
 
 // A new, redesigned card for displaying a single patient
 function PatientCard({ patient, onViewDetails }) {

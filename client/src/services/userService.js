@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/admin/users';
+const API_URL = 'https://docify-telemedical-web-1.onrender.com/api/admin/users';
 
 export const getAllUsers = async (token) => {
   return await axios.get(API_URL, {

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api/reports';
+const API = 'https://docify-telemedical-web-1.onrender.com/api/reports';
 
 export const uploadReport = async (formData, token) => {
   return await axios.post(`${API}/upload`, formData, {

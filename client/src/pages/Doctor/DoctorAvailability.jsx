@@ -5,7 +5,7 @@ import { useAuth } from '../../context/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiCalendar, FiClock, FiCheckCircle, FiAlertCircle, FiUsers, FiFileText, FiSettings, FiLogOut } from 'react-icons/fi';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docify-telemedical-web-1.onrender.com';
 
 // A single day's schedule component with the new toggle design
 function DaySchedule({ day, index, handleScheduleChange }) {

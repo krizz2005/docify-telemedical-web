@@ -6,7 +6,7 @@ import Layout from "../../components/Layout";
 import { useAuth } from "../../context/AuthContext";
 import { FiFileText, FiDownload, FiUser, FiChevronDown } from "react-icons/fi";
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://docify-telemedical-web-1.onrender.com";
 
 export default function ViewReports() {
   const { user } = useAuth();

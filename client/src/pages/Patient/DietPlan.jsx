@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://docify-telemedical-web-1.onrender.com";
 
 // --- Mock AuthContext for self-contained component ---
 const AuthContext = createContext(null);

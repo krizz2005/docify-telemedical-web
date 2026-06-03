@@ -6,7 +6,7 @@ import { useAuth } from '../../context/AuthContext';
 import { motion } from 'framer-motion';
 import { FiUploadCloud, FiFileText, FiXCircle, FiUser, FiEdit3, FiArrowRight, FiHome, FiCalendar, FiUserCheck, FiUpload, FiStar, FiLogOut } from 'react-icons/fi';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docify-telemedical-web-1.onrender.com';
 
 export default function UploadReport() {
     const { user, logout } = useAuth();

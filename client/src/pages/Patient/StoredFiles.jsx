@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 import { FiUpload, FiDownload, FiFileText, FiXCircle, FiLoader, FiInbox } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://docify-telemedical-web-1.onrender.com";
 
 // A single item in the list of reports
 const ReportItem = ({ report, onDownload }) => (

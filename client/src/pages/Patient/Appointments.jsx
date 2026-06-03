@@ -6,7 +6,7 @@ import { useAuth } from '../../context/AuthContext';
 import Layout from '../../components/Layout';
 import { FiCalendar, FiClock, FiUser, FiVideo } from 'react-icons/fi';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docify-telemedical-web-1.onrender.com';
 
 export default function MyAppointments() {
   const { user } = useAuth();

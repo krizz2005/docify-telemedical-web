@@ -4,7 +4,7 @@ import { useAuth } from '../../context/AuthContext';
 import Layout from '../../components/Layout';
 import { FiFileText, FiDownload, FiLoader, FiAlertTriangle, FiInbox, FiExternalLink } from 'react-icons/fi'; // Added FiExternalLink
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docify-telemedical-web-1.onrender.com';
 
 export default function ViewReports() {
   const { user } = useAuth();

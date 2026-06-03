@@ -8,7 +8,7 @@ import {
     FiUsers, FiSettings, FiLogOut, FiClock, FiVideo 
 } from 'react-icons/fi';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://docify-telemedical-web-1.onrender.com';
 
 // A card for a single item in the appointment history list
 function AppointmentHistoryCard({ appt }) {
