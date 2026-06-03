@@ -1,0 +1,26 @@
+/* Make sure these are at the top of your file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add these new styles */
+body {
+  font-family: 'Inter', sans-serif; /* A clean, modern font */
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+.bg-dots-pattern {
+  background-image: radial-gradient(circle at 1px 1px, #e2e8f0 1px, transparent 0);
+  background-size: 20px 20px;
+}
