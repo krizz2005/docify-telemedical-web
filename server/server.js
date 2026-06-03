@@ -9,7 +9,7 @@ import connectDB from './config/db.js';
 import adminRoutes from './routes/adminRoutes.js';
 import authRoutes from './routes/authRoutes.js';
 import doctorRoutes from './routes/doctorRoutes.js';
-import patientRoutes from './routes/patientRoutes.js';
+import patientRoutes from './routes/PatientRoutes.js';
 import appointmentRoutes from './routes/appointmentRoutes.js';
 import availabilityRoutes from './routes/availabilityRoutes.js';
 import subscriptionRoutes from './routes/subscriptionRoutes.js';
